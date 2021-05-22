@@ -203,6 +203,7 @@ body {
 
 .header-contacts .mail-icon {
   display: inline-flex;
+  align-items: center;
 }
 
 .header-contacts .tel-icon {
@@ -245,13 +246,17 @@ body {
 }
 
 .tel-icon {
-  display: flex;
   width: 10px;
   height: 16px;
   fill: #757575;
   margin-right: 10px;
 }
 
+.mail-adress {
+  display: inline-flex;
+  color: var(--dominante-color);
+  align-items: center;
+}
 /* =======END HEADER====== */
 
 /* =======HERO========= */
