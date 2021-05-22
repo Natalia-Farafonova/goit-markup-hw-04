@@ -111,7 +111,7 @@ body {
 
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: #2196f3;
+  color: #2196f3;
 }
 
 .social-list-link:hover .social-list-icon,
