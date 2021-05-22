@@ -418,12 +418,6 @@ body {
 
 /* =============CLIENTS========== */
 
-.clients {
-  width: 1318px;
-  height: 184px;
-  background: #e5e5e5;
-}
-
 .clients-conteiner {
   width: 1170px;
   height: 184px;
@@ -579,23 +573,18 @@ body {
   align-items: center;
   justify-content: center;
   background: rgba(255, 255, 255, 0.1);
-}
-
-.footer .footer-social-list-link {
-  color: #FFFFFF;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  color: #ffffff;
+}
 
 .footer-social-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
 .footer-social-list-icon {
-  display: flex;
   width: 20px;
   height: 20px;
-  align-items: center;
-  justify-content: center;
   fill: #ffffff;
 }
 
