@@ -496,13 +496,14 @@ body {
 /* ========FOOTER======= */
 
 .footer {
-  display: flex;
   background-color: #2f303a;
-  align-items: baseline;
-  width: 1318px;
-  height: 137px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
 }
 
 .logo-studio-footer {
@@ -511,19 +512,18 @@ body {
 
 .logo-footer {
   font-family: var(--secondary-font);
-  font-style: 400;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   display: block;
   margin-bottom: 20px;
-  margin-left: 215px;
   color: var(--accent-color);
 }
 
 .description-address {
   font-style: 400;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -556,11 +556,6 @@ body {
   color: var(--dominante-color);
 }
 
-.footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .footer-list:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -570,29 +565,29 @@ body {
   display: block;
 }
 
-.footer-social {
-  display: flex;
-  width: 206px;
-  height: 79px;
-  align-items: center;
-  justify-content: center;
-  margin-left: 70px;
-}
-
 .footer-social-list {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 206px;
-  height: 44px;
+  padding: 0;
   margin-top: 20px;
 }
 
 .footer-social-list-link {
-  display: flex;
+  display: inline-flex;
   width: 44px;
   height: 44px;
+  align-items: center;
+  justify-content: center;
   background: rgba(255, 255, 255, 0.1);
+}
+
+.footer .footer-social-list-link {
+  color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer-social-list-icon {
@@ -604,21 +599,13 @@ body {
   fill: #ffffff;
 }
 
-.address {
-  width: 231px;
-  height: 81px;
-  margin-left: 215px;
-  margin-bottom: 60px;
-}
-
 .title-social {
   font-family: var(--main-font);
-  font-style: 400;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0;
   color: #ffffff;
 }
 
