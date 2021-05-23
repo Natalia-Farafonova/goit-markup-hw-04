@@ -94,6 +94,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-bottom: 50px;
 }
 
 .social-list {
@@ -405,10 +406,6 @@ body {
   margin-right: 30px;
 }
 
-.title-services {
-  margin-bottom: 50px;
-}
-
 /* ========END WHAT WE DOING====== */
 
 /* ========OUR TEAM=========== */
@@ -466,16 +463,6 @@ body {
 
 /* =============CLIENTS========== */
 
-.title-clients {
-  font-family: var(--main-font);
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  margin-bottom: 50px;
-}
-
 .clients-list {
   display: flex;
   padding: 0;
@@ -492,7 +479,6 @@ body {
 }
 
 .clients-list-item {
-  flex-basis: calc((100% - 180px) / 6);
 }
 
 .clients-list-item:not(:last-child) {
@@ -508,6 +494,7 @@ body {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  flex-basis: calc((100% - 180px) / 6);
 }
 
 .clients-icon {
