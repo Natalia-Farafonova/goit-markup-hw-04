@@ -125,26 +125,6 @@ body {
   fill: #afb1b8;
 }
 
-.features-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 270px;
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
-}
-
-.features-icon:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features-icon-logo {
-  width: 70px;
-  height: 70px;
-  fill: #212121;
-}
 /* =========END COMPONENTS====== */
 
 /*============HEADER========= */
@@ -337,6 +317,12 @@ body {
 .features-conteiner {
   display: flex;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  margin-right: -30px;
+  margin-left: -30px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .features-item:not(:last-child) {
@@ -344,7 +330,28 @@ body {
 }
 
 .features {
-  padding-top: 94px;
+  padding-bottom: 0;
+}
+
+.features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.features-icon:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-icon-logo {
+  width: 70px;
+  height: 70px;
+  fill: #212121;
 }
 /* ========END FEATURES===== */
 
