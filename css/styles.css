@@ -192,6 +192,11 @@ body {
   fill: var(--accent-color);
 }
 
+.mail-link:focus .icon-adress {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
 .header-contacts .contacts-item {
   display: inline-flex;
   align-items: center;
@@ -202,8 +207,9 @@ body {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
-.contacts-item:focus .icon-adress,
-.contacts-item:hover .icon-adress {
+
+.contacts-item:hover .icon-adress,
+.contacts-item:focus .icon-adress {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -211,6 +217,17 @@ body {
 .tel-link:hover,
 .tel-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.tel-link:focus .icon-adress,
+.tel-link:hover .icon-adress {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.icon-adress:hover,
+.icon-adress:focus {
   fill: var(--accent-color);
 }
 
@@ -485,7 +502,8 @@ body {
   border: 1px solid #2196f3;
 }
 
-.clients-list-link:hover .clients-icon {
+.clients-list-link:hover .clients-icon,
+.clients-list-link:focus .clients-icon {
   fill: #2196f3;
 }
 
